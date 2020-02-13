@@ -1,66 +1,71 @@
-# Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
-cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
-favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Leonids
+email:
+description: A simple and awesome blog theme powered by jekyll.
+url: # the base hostname & protocol for your site
+keywords: ["blog", "jekyll"]
 
-pagination:
-
-  # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: true
-
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
-
-  per_page: 5
-
-# Social
-facebook: facebook
-twitter: twitter
-github:  github
-
-#Additional Pages
-about: about
-contact: contact
-privacy-policy: privacy-policy
-
-
-permalink: /:title
-
-
-# Google Analytics
-analytics_id: ""
-
-# Build settings
-markdown: kramdown
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
 kramdown:
-  parse_block_html: true
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-plugins:
-  - jekyll-paginate-v2
-
-
-# Settings for rake task
-safe: False
-lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
-branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Leonids
+  avatar: leonids-logo.png
+  job: "A jekyll theme"
+  bio: "A simple and awesome blog theme powered by jekyll."
+  email:
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: #username
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
