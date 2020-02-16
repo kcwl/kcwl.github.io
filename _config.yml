@@ -74,7 +74,7 @@ owner:
 gitalk:
     enable: true
     owner: kcwl
-    repo: kwcl.github.io
+    repo: kcwl.github.io
     clientID: 86452c69e323396ed35d
     clientSecret: 16ea79bc56a9f3a5866d29c9289c894f31715fc9
     admin: kcwl
