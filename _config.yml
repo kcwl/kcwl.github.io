@@ -35,8 +35,8 @@ kramdown:
 owner:
   name: kcwl
   avatar: #leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job: "It's for mordern c++ !"
+  bio: 
   email:
   disqus-shortname:
   twitter: #username
@@ -69,3 +69,12 @@ owner:
   codepen: #username
   reddit: #username
   telegram: #username
+
+# Disqus settings
+gitalk:
+    enable: true
+    owner: kcwl
+    repo: kwcl.github.io
+    clientID: 86452c69e323396ed35d
+    clientSecret: 16ea79bc56a9f3a5866d29c9289c894f31715fc9
+    admin: kcwl
