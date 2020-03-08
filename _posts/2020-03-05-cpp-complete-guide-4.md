@@ -33,7 +33,7 @@ comments: true
 		bool done;
 	};
 
-	MoreData y\{{"test1",6.778},false};
+	MoreData y\{\{"test1",6.778},false};
 	```
 
 聚合初始化现在支持嵌套大括号来将值传递给派生的基类的成员。
